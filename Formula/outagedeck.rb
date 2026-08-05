@@ -4,26 +4,26 @@
 class Outagedeck < Formula
   desc "Check live cloud and SaaS status from your terminal or CI"
   homepage "https://outagedeck.com"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/outagedeck/cli/releases/download/v0.1.0/outagedeck_0.1.0_darwin_arm64.tar.gz"
-      sha256 "1de5201480c2707f717da2afd1857c237fdf853d238368628639d295d5f5b113"
+      url "https://github.com/outagedeck/cli/releases/download/v0.1.1/outagedeck_0.1.1_darwin_arm64.tar.gz"
+      sha256 "acf7ebf516c89600d34b319209693bb054cee3c093708021c1e04f94ea194a4d"
     else
-      url "https://github.com/outagedeck/cli/releases/download/v0.1.0/outagedeck_0.1.0_darwin_amd64.tar.gz"
-      sha256 "49e497b69e0e3ce4abde0efb89f7e3fa2baa1131ee52f87ad088b1a86aafea06"
+      url "https://github.com/outagedeck/cli/releases/download/v0.1.1/outagedeck_0.1.1_darwin_amd64.tar.gz"
+      sha256 "e87784af126a604b27a9756a4de0f3d5627da6cd1b140f8cb0c43f4fd2ceb66b"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/outagedeck/cli/releases/download/v0.1.0/outagedeck_0.1.0_linux_arm64.tar.gz"
-      sha256 "f8ae05f044989d41e2f82f70a3edca204083c2404f951d50cb1bdc225944fb9d"
+      url "https://github.com/outagedeck/cli/releases/download/v0.1.1/outagedeck_0.1.1_linux_arm64.tar.gz"
+      sha256 "e264e602bd3d3e2c8256374e6aea9119e702d3fc8dc9d856713907121ee77221"
     else
-      url "https://github.com/outagedeck/cli/releases/download/v0.1.0/outagedeck_0.1.0_linux_amd64.tar.gz"
-      sha256 "9e4a31d984aafe3d0219daf57152e9245b9491c510c0ed987ca9d3ce312d0520"
+      url "https://github.com/outagedeck/cli/releases/download/v0.1.1/outagedeck_0.1.1_linux_amd64.tar.gz"
+      sha256 "6a8f86a4f0c86ba5add99eaf6c524e1354a0f49b226fd356b67c09867f0bab32"
     end
   end
 
