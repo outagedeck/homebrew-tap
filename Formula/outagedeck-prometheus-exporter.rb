@@ -4,7 +4,6 @@
 class OutagedeckPrometheusExporter < Formula
   desc "Export live cloud and SaaS provider status as Prometheus metrics"
   homepage "https://github.com/outagedeck/prometheus-exporter"
-  version "0.2.0"
   license "MIT"
 
   on_macos do
